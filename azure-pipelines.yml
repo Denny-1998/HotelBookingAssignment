@@ -7,8 +7,7 @@ trigger:
 - main
 
 pool:
-  name: local
-trigger: none
+  vmImage: 'ubuntu-latest'
 
 
 variables:
